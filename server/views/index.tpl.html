@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title><%=title%></title>
+    </head>
+    <style>
+        <%=cssStr%>
+    </style>
+    <body>
+        <div id="root"><%-content%></div>
+        <script>
+            window.context = {
+                state: <%-state%>
+            }
+        </script>
+    </body>
+</html>
